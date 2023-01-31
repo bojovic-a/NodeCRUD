@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: #888;
+}
+
+.container {
+    margin: 2% 10%;
+}

@@ -1,0 +1,17 @@
+doctype html 
+html
+    head 
+        title Pocetna        
+
+    body 
+        h1 Svi proizvodi iz baze 
+
+        table(border="1")
+            thead 
+                th Naziv 
+                th Cena
+            tbody 
+                each covek in coveci 
+                    tr 
+                        td= covek['naziv']
+                        td= covek['cena']
