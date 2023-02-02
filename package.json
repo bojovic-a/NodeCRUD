@@ -1,0 +1,26 @@
+{
+  "name": "nodezadaci",
+  "version": "1.0.0",
+  "description": "Repo gde su okaceni primeri vezbanja Node.js sa Express, Pug i MySQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bojovic-a/NodeZadaci.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bojovic-a/NodeZadaci/issues"
+  },
+  "homepage": "https://github.com/bojovic-a/NodeZadaci#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "pug": "^3.0.2"
+  }
+}

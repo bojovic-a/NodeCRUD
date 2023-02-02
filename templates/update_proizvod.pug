@@ -1,0 +1,25 @@
+doctype html 
+head 
+    title Update 
+body 
+    h1 Update proizvod 
+    form(action="/update_proizvod" method="POST")
+        label(for="naziv") Naziv:
+        input(type="text" name="naziv" value=proizvod['naziv'])
+        br
+        label(for="cena") Cena:
+        input(type="text" name="cena" value=proizvod['cena'])
+        br
+        label(for="opis") Opis:
+        input(type="text" name="opis")
+        br
+        label(for="slika") URL slike:    
+        input(type="text" name="slika")
+        br
+        label(for="prodavac") Prodavac ID:
+        input(type="text" name="prodavac")
+        br
+        label(for="stanje") Stanje: 
+        input(type="text" name="stanje")
+        br
+        input(type="submit")

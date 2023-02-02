@@ -1,0 +1,25 @@
+doctype html
+head 
+    title Dodaj proizvod 
+body 
+    h1 Dodaj proizvod 
+    form(action="/dodaj_proizvod" method="POST")
+        label(for="naziv") Naziv:
+        input(type="text" name="naziv")
+        br
+        label(for="cena") Cena:
+        input(type="text" name="cena")
+        br
+        label(for="opis") Opis:
+        input(type="text" name="opis")
+        br
+        label(for="slika") URL slike:    
+        input(type="text" name="slika")
+        br
+        label(for="prodavac") Prodavac ID:
+        input(type="text" name="prodavac")
+        br
+        label(for="stanje") Stanje: 
+        input(type="text" name="stanje")
+        br
+        input(type="submit")
