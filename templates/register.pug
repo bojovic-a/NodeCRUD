@@ -1,0 +1,16 @@
+doctype html 
+head 
+    title Register 
+    link(rel="stylesheet" type="text/css" href="style/style.css")
+
+body 
+    h2 Register 
+    p(class="error")= err 
+    form(action="/register" method="POST") 
+        label(for="username") Username: 
+        input(type="text" name="username")
+        br
+        label(for="password") Password: 
+        input(type="password" name="password")
+        br
+        input(type="submit" value="Register")

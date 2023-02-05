@@ -8,17 +8,19 @@ html
 
         table(border="1")
             thead 
-                th Naziv 
+                th Naziv
                 th Cena
+                th Opis
                 th(colspan="2") Opcije
             tbody 
                 each covek in coveci 
                     tr 
                         td= covek['naziv']
                         td= covek['cena']
+                        td= covek['opis']
                         td
                             a(href="/update_proizvod/"+covek['id']) Update 
                         td
-                            a(href="/delete_proizvod") Delete
+                            a(href="/delete_proizvod/"+covek['id']) Delete
 
         a(href="/dodaj_proizvod") Dodaj proizvod 

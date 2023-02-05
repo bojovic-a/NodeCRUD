@@ -8,5 +8,14 @@ html
     body
         div.container 
             h1 Node.js/express/pug vezba
-            p Moje ime je #{moje_ime}
+            if moje_ime
+                p Zdravo #{moje_ime}
+            else 
+                p Zdravo
             a(href="/svi_proizvodi") Svi proizvodi
+            br
+            a(href="/login") Login 
+            br
+            a(href="/register") Register 
+            br
+            a(href="/logout") Logout  

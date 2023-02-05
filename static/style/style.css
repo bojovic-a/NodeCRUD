@@ -10,3 +10,7 @@ h1 {
 .container {
     margin: 2% 10%;
 }
+
+.error {
+    color: red;    
+}
